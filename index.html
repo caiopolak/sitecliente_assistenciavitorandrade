@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vitor Andrade Assistência Técnica - Instalação e manutenção de ar-condicionado, máquina de lavar, geladeiras e freezers em Maresias, São Sebastião e Litoral Norte de SP. Atendimento rápido com garantia. WhatsApp (11) 97196-2239.">
+    <meta name="keywords" content="assistência técnica ar condicionado Maresias, manutenção ar condicionado São Sebastião, conserto máquina de lavar litoral norte, assistência técnica geladeira Maresias, técnico ar condicionado São Sebastião, instalação split inverter Maresias, conserto freezer litoral norte SP">
+    <meta name="author" content="Vitor Andrade Assistência Técnica">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="BR-SP">
+    <meta name="geo.placename" content="Maresias, São Sebastião">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Vitor Andrade Assistência Técnica | Maresias & São Sebastião">
+    <meta property="og:description" content="Assistência técnica especializada em ar-condicionado, máquina de lavar, geladeiras e freezers. Atendimento rápido em Maresias e região.">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+
+    <title>Vitor Andrade Assistência Técnica | Ar-Condicionado, Máquina de Lavar, Geladeira | Maresias - SP</title>
+
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Vitor Andrade Assistência Técnica",
+        "description": "Assistência técnica especializada em ar-condicionado, máquina de lavar, geladeiras e freezers em Maresias e São Sebastião.",
+        "telephone": "+5511971962239",
+        "areaServed": [
+            {"@type": "City", "name": "São Sebastião"},
+            {"@type": "Place", "name": "Maresias"},
+            {"@type": "Place", "name": "Litoral Norte de São Paulo"}
+        ],
+        "serviceType": [
+            "Instalação de Ar-Condicionado",
+            "Manutenção de Ar-Condicionado",
+            "Conserto de Máquina de Lavar",
+            "Assistência Técnica para Geladeiras",
+            "Assistência Técnica para Freezers"
+        ],
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Maresias",
+            "addressRegion": "SP",
+            "addressCountry": "BR"
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="logo.png" alt="Vitor Andrade Assistência Técnica" class="nav-logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Início</a></li>
+                <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+                <li><a href="#contato" class="nav-link nav-link--cta">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    WhatsApp
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header class="hero" id="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge" data-animate="fade-up">
+                    <span class="badge-dot"></span>
+                    Maresias & São Sebastião - SP
+                </div>
+                <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                    Assistência Técnica<br>
+                    <span class="hero-title-gradient">Especializada</span>
+                </h1>
+                <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+                    Instalação, manutenção preventiva e corretiva de <strong>ar-condicionado</strong>, <strong>máquina de lavar</strong>, <strong>geladeiras</strong> e <strong>freezers</strong> com rapidez, qualidade e garantia.
+                </p>
+                <div class="hero-actions" data-animate="fade-up" data-delay="300">
+                    <a href="https://wa.me/5511971962239?text=Olá! Gostaria de solicitar um orçamento." class="btn btn-primary btn-lg" id="heroCta">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Solicitar Orçamento
+                    </a>
+                    <a href="#servicos" class="btn btn-outline btn-lg" id="heroServices">
+                        Nossos Serviços
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+                    </a>
+                </div>
+                <div class="hero-stats" data-animate="fade-up" data-delay="400">
+                    <div class="hero-stat">
+                        <span class="hero-stat-number" data-count="500">0</span><span class="hero-stat-plus">+</span>
+                        <span class="hero-stat-label">Clientes Atendidos</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number" data-count="8">0</span><span class="hero-stat-plus">+</span>
+                        <span class="hero-stat-label">Anos de Experiência</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">100</span><span class="hero-stat-plus">%</span>
+                        <span class="hero-stat-label">Garantia nos Serviços</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-animate="fade-left" data-delay="200">
+                <div class="hero-image-wrapper">
+                    <img src="image1.png" alt="Vitor Andrade realizando manutenção em ar-condicionado" class="hero-img" loading="eager">
+                    <div class="hero-image-glow"></div>
+                </div>
+                <div class="hero-float-card hero-float-card--top" data-animate="float">
+                    <div class="float-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <div class="float-card-text">
+                        <strong>Serviço com Garantia</strong>
+                        <span>Qualidade assegurada</span>
+                    </div>
+                </div>
+                <div class="hero-float-card hero-float-card--bottom" data-animate="float" style="animation-delay: 1s">
+                    <div class="float-card-icon float-card-icon--green">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <div class="float-card-text">
+                        <strong>Profissional Qualificado</strong>
+                        <span>Técnico especializado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <a href="#servicos" aria-label="Rolar para serviços">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <!-- ===== SERVIÇOS ===== -->
+    <section class="section services" id="servicos">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">O que fazemos</span>
+                <h2 class="section-title">Nossos <span class="text-gradient">Serviços</span></h2>
+                <p class="section-subtitle">Oferecemos soluções completas para seus equipamentos residenciais e comerciais com atendimento profissional.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Ar-Condicionado -->
+                <div class="service-card" data-animate="fade-up" data-delay="0">
+                    <div class="service-card-glow"></div>
+                    <div class="service-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="10" rx="2"/>
+                            <path d="M12 13v4"/>
+                            <path d="M8 17l2-2"/>
+                            <path d="M16 17l-2-2"/>
+                            <path d="M6 7h.01"/>
+                            <path d="M10 7h8"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card-title">Ar-Condicionado</h3>
+                    <p class="service-card-desc">Instalação, limpeza, higienização e manutenção completa de Split, Split Inverter, Piso Teto e Cassete.</p>
+                    <ul class="service-card-list">
+                        <li>Instalação completa</li>
+                        <li>Carga de gás refrigerante</li>
+                        <li>Limpeza e higienização</li>
+                        <li>Correção de vazamentos</li>
+                        <li>Manutenção preventiva</li>
+                    </ul>
+                    <div class="service-card-footer">
+                        <a href="https://wa.me/5511971962239?text=Olá! Preciso de assistência para meu ar-condicionado." class="btn btn-ghost" id="serviceAC">
+                            Solicitar Serviço
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Máquina de Lavar -->
+                <div class="service-card service-card--featured" data-animate="fade-up" data-delay="100">
+                    <div class="service-card-glow"></div>
+                    <div class="service-card-badge">Mais Solicitado</div>
+                    <div class="service-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="2" width="18" height="20" rx="2"/>
+                            <circle cx="12" cy="13" r="5"/>
+                            <circle cx="12" cy="13" r="2"/>
+                            <path d="M7 6h.01"/>
+                            <path d="M11 6h.01"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card-title">Máquina de Lavar</h3>
+                    <p class="service-card-desc">Especialistas em manutenção de lavadoras das principais marcas: Brastemp, Consul, Electrolux, Samsung, LG e mais.</p>
+                    <ul class="service-card-list">
+                        <li>Não liga / Não centrifuga</li>
+                        <li>Vazamentos e barulhos</li>
+                        <li>Erros eletrônicos</li>
+                        <li>Troca de bomba e placa</li>
+                        <li>Todas as marcas</li>
+                    </ul>
+                    <div class="service-card-footer">
+                        <a href="https://wa.me/5511971962239?text=Olá! Preciso de assistência para minha máquina de lavar." class="btn btn-ghost" id="serviceLavar">
+                            Solicitar Serviço
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Geladeira / Freezer -->
+                <div class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-card-glow"></div>
+                    <div class="service-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="4" y="2" width="16" height="20" rx="2"/>
+                            <path d="M4 10h16"/>
+                            <path d="M9 6v0"/>
+                            <path d="M9 14v0"/>
+                            <path d="M15 14v2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card-title">Geladeira & Freezer</h3>
+                    <p class="service-card-desc">Atendimento especializado para geladeiras, refrigeradores, freezers e adegas climatizadas de todas as marcas.</p>
+                    <ul class="service-card-list">
+                        <li>Troca de compressor</li>
+                        <li>Reparo de placa eletrônica</li>
+                        <li>Recarga de gás</li>
+                        <li>Excesso de gelo / Vazamentos</li>
+                        <li>Consumo excessivo de energia</li>
+                    </ul>
+                    <div class="service-card-footer">
+                        <a href="https://wa.me/5511971962239?text=Olá! Preciso de assistência para minha geladeira/freezer." class="btn btn-ghost" id="serviceGeladeira">
+                            Solicitar Serviço
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marcas atendidas -->
+            <div class="brands-section" data-animate="fade-up">
+                <p class="brands-label">Marcas que atendemos</p>
+                <div class="brands-track">
+                    <div class="brands-slider" id="brandsSlider">
+                        <span class="brand-name">Brastemp</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Consul</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Electrolux</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Samsung</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">LG</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Panasonic</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Midea</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Philco</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Gree</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Daikin</span>
+                        <span class="brand-divider">•</span>
+                        <!-- Duplicates for seamless scroll -->
+                        <span class="brand-name">Brastemp</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Consul</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Electrolux</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Samsung</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">LG</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Panasonic</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Midea</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Philco</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Gree</span>
+                        <span class="brand-divider">•</span>
+                        <span class="brand-name">Daikin</span>
+                        <span class="brand-divider">•</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="section about" id="sobre">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images" data-animate="fade-right">
+                    <div class="about-img-main">
+                        <img src="image5.png" alt="Vitor Andrade - Técnico Especializado" loading="lazy">
+                    </div>
+                    <div class="about-img-secondary">
+                        <img src="image3.png" alt="Vitor Andrade realizando manutenção" loading="lazy">
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="experience-number">8+</span>
+                        <span class="experience-text">Anos de<br>Experiência</span>
+                    </div>
+                </div>
+                <div class="about-content" data-animate="fade-left">
+                    <span class="section-tag">Quem somos</span>
+                    <h2 class="section-title section-title--left">Compromisso com <span class="text-gradient">Seu Conforto</span></h2>
+                    <p class="about-text">
+                        A <strong>Vitor Andrade Assistência Técnica</strong> é referência em serviços de instalação, manutenção preventiva e corretiva para equipamentos residenciais e comerciais na região de <strong>Maresias e São Sebastião</strong>.
+                    </p>
+                    <p class="about-text">
+                        Atendemos com rapidez, qualidade e garantia, proporcionando mais conforto, economia e segurança para nossos clientes no <strong>Litoral Norte de São Paulo</strong> e regiões próximas.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                            </div>
+                            <div>
+                                <strong>Atendimento Rápido</strong>
+                                <span>Resposta ágil e eficiente</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            </div>
+                            <div>
+                                <strong>Garantia de Serviço</strong>
+                                <span>Todos os serviços com garantia</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            </div>
+                            <div>
+                                <strong>Diagnóstico Preciso</strong>
+                                <span>Identificação exata do problema</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            </div>
+                            <div>
+                                <strong>Peças de Qualidade</strong>
+                                <span>Componentes originais e duráveis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== GALERIA ===== -->
+    <section class="section gallery" id="galeria">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Nosso Trabalho</span>
+                <h2 class="section-title">Galeria de <span class="text-gradient">Serviços</span></h2>
+                <p class="section-subtitle">Veja alguns dos nossos trabalhos realizados com excelência e profissionalismo.</p>
+            </div>
+            <div class="gallery-grid" data-animate="fade-up">
+                <div class="gallery-item gallery-item--large">
+                    <img src="image1.png" alt="Manutenção de ar-condicionado - Condensadora" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Ar-Condicionado</span>
+                        <p>Manutenção em condensadora</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="image2.png" alt="Manutenção de ar-condicionado - Evaporadora" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Ar-Condicionado</span>
+                        <p>Manutenção em evaporadora</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="image4.png" alt="Limpeza e higienização de split" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Ar-Condicionado</span>
+                        <p>Limpeza e higienização</p>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-item--tall">
+                    <img src="image3.png" alt="Reparo em sistema de refrigeração" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Refrigeração</span>
+                        <p>Reparo em sistema de refrigeração</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DIFERENCIAIS ===== -->
+    <section class="section differentials" id="diferenciais">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Por que nos escolher</span>
+                <h2 class="section-title">Nossos <span class="text-gradient">Diferenciais</span></h2>
+            </div>
+            <div class="differentials-grid">
+                <div class="differential-card" data-animate="fade-up" data-delay="0">
+                    <div class="differential-number">01</div>
+                    <div class="differential-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <h3>Atendimento Rápido</h3>
+                    <p>Resposta ágil pelo WhatsApp e agendamento no mesmo dia sempre que possível.</p>
+                </div>
+                <div class="differential-card" data-animate="fade-up" data-delay="50">
+                    <div class="differential-number">02</div>
+                    <div class="differential-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>Profissional Qualificado</h3>
+                    <p>Técnico com anos de experiência e conhecimento atualizado nas melhores práticas.</p>
+                </div>
+                <div class="differential-card" data-animate="fade-up" data-delay="100">
+                    <div class="differential-number">03</div>
+                    <div class="differential-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Serviço com Garantia</h3>
+                    <p>Todos os serviços executados possuem garantia, assegurando sua tranquilidade.</p>
+                </div>
+                <div class="differential-card" data-animate="fade-up" data-delay="150">
+                    <div class="differential-number">04</div>
+                    <div class="differential-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3>Diagnóstico Preciso</h3>
+                    <p>Identificação exata do problema para um reparo eficiente e sem desperdício.</p>
+                </div>
+                <div class="differential-card" data-animate="fade-up" data-delay="200">
+                    <div class="differential-number">05</div>
+                    <div class="differential-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <h3>Peças de Qualidade</h3>
+                    <p>Utilizamos componentes originais e de alta qualidade para maior durabilidade.</p>
+                </div>
+                <div class="differential-card" data-animate="fade-up" data-delay="250">
+                    <div class="differential-number">06</div>
+                    <div class="differential-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z"/><path d="M19 10v2a7 7 0 01-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                    </div>
+                    <h3>Transparência Total</h3>
+                    <p>Orçamento detalhado e sem surpresas. Preço justo e transparente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MANUTENÇÃO PREVENTIVA ===== -->
+    <section class="section preventive" id="preventiva">
+        <div class="container">
+            <div class="preventive-wrapper" data-animate="fade-up">
+                <div class="preventive-content">
+                    <span class="section-tag section-tag--light">Economia</span>
+                    <h2 class="preventive-title">Manutenção Preventiva:<br><span>Economize Dinheiro</span></h2>
+                    <p class="preventive-text">A manutenção preventiva ajuda a evitar problemas graves e custos desnecessários com seus equipamentos.</p>
+                    <div class="preventive-benefits">
+                        <div class="preventive-benefit">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span>Evita quebras inesperadas</span>
+                        </div>
+                        <div class="preventive-benefit">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span>Reduz gastos com reparos</span>
+                        </div>
+                        <div class="preventive-benefit">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span>Diminui consumo de energia</span>
+                        </div>
+                        <div class="preventive-benefit">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span>Aumenta a vida útil do equipamento</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5511971962239?text=Olá! Gostaria de agendar uma manutenção preventiva." class="btn btn-primary btn-lg" id="preventiveCta">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Agendar Manutenção Preventiva
+                    </a>
+                </div>
+                <div class="preventive-visual">
+                    <div class="preventive-savings">
+                        <div class="savings-circle">
+                            <svg viewBox="0 0 120 120" class="savings-ring">
+                                <circle cx="60" cy="60" r="54" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="8"/>
+                                <circle cx="60" cy="60" r="54" fill="none" stroke="url(#savingsGradient)" stroke-width="8" stroke-dasharray="339.29" stroke-dashoffset="85" stroke-linecap="round" transform="rotate(-90 60 60)"/>
+                                <defs>
+                                    <linearGradient id="savingsGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color:#4FC3F7"/>
+                                        <stop offset="100%" style="stop-color:#29B6F6"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="savings-text">
+                                <span class="savings-percent">75%</span>
+                                <span class="savings-label">menos reparos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTATO / CTA FINAL ===== -->
+    <section class="section contact" id="contato">
+        <div class="container">
+            <div class="contact-wrapper" data-animate="fade-up">
+                <div class="contact-info">
+                    <span class="section-tag">Fale Conosco</span>
+                    <h2 class="section-title section-title--left">Solicite Seu<br><span class="text-gradient">Orçamento Agora</span></h2>
+                    <p class="contact-text">Seu equipamento apresentou defeito? Não espere o problema piorar. Nossa equipe está pronta para atender você com rapidez, qualidade e total compromisso.</p>
+
+                    <div class="contact-cards">
+                        <a href="https://wa.me/5511971962239?text=Olá! Gostaria de solicitar um orçamento." class="contact-card" id="contactWhatsapp">
+                            <div class="contact-card-icon contact-card-icon--whatsapp">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            </div>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <span>(11) 97196-2239</span>
+                            </div>
+                            <svg class="contact-card-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                        <div class="contact-card">
+                            <div class="contact-card-icon contact-card-icon--location">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <strong>Região de Atendimento</strong>
+                                <span>Maresias, São Sebastião e Litoral Norte</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-services-list">
+                        <h3>Serviços Disponíveis:</h3>
+                        <div class="contact-services-tags">
+                            <span class="contact-service-tag">🔹 Instalação de Ar-Condicionado</span>
+                            <span class="contact-service-tag">🔹 Manutenção de Ar-Condicionado</span>
+                            <span class="contact-service-tag">🔹 Conserto de Máquina de Lavar</span>
+                            <span class="contact-service-tag">🔹 Assistência para Geladeiras</span>
+                            <span class="contact-service-tag">🔹 Assistência para Freezers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-visual" data-animate="fade-left">
+                    <div class="contact-img-wrapper">
+                        <img src="image2.png" alt="Vitor Andrade realizando manutenção técnica" loading="lazy">
+                        <div class="contact-img-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="Vitor Andrade Assistência Técnica" class="footer-logo">
+                    <p class="footer-desc">Assistência técnica especializada em ar-condicionado, máquina de lavar, geladeiras e freezers. Atendimento com qualidade, confiança e compromisso.</p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/5511971962239" class="footer-social-link" aria-label="WhatsApp" id="footerWhatsapp">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#diferenciais">Diferenciais</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Ar-Condicionado</a></li>
+                        <li><a href="#servicos">Máquina de Lavar</a></li>
+                        <li><a href="#servicos">Geladeira & Freezer</a></li>
+                        <li><a href="#preventiva">Manutenção Preventiva</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Atendimento</h4>
+                    <ul>
+                        <li>Maresias - SP</li>
+                        <li>São Sebastião - SP</li>
+                        <li>Litoral Norte de SP</li>
+                        <li>Regiões Próximas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Vitor Andrade Assistência Técnica. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== FLOATING WHATSAPP ===== -->
+    <a href="https://wa.me/5511971962239?text=Olá! Gostaria de solicitar um orçamento." class="whatsapp-float" id="whatsappFloat" aria-label="Fale conosco pelo WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span class="whatsapp-float-tooltip">Fale Conosco</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
