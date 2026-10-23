@@ -37,3 +37,10 @@ ACESSE O SITE: https://caiopolak.github.io/sitecliente_assistenciavitorandrade/
 ---
 
 © 2025 Vitor Andrade Assistência Técnica - Made by: pynexus
+
+
+## Direitos autorais e licença
+
+O código original desenvolvido pelo autor é proprietário. Consulte [LICENSE](LICENSE): cópia, modificação, redistribuição e uso comercial exigem autorização prévia e por escrito.
+
+A marca, fotografias, dados de contato, textos e materiais fornecidos pelo cliente são excluídos desse aviso e permanecem sob os direitos de seus respectivos titulares. A publicação como portfólio não concede licença para reutilizar esses materiais.
